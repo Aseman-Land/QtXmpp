@@ -3,12 +3,14 @@ SUBDIRS = \
     qxmpparchiveiq \
     qxmppbindiq \
     qxmppcallmanager \
+    qxmppcarbonmanager \
     qxmppdataform \
     qxmppdiscoveryiq \
     qxmppentitytimeiq \
     qxmppiceconnection \
     qxmppiq \
     qxmppjingleiq \
+    qxmppmammanager \
     qxmppmessage \
     qxmppnonsaslauthiq \
     qxmpppresence \

@@ -4,7 +4,6 @@ INSTALL_HEADERS += \
     base/QXmppBindIq.h \
     base/QXmppBookmarkSet.h \
     base/QXmppByteStreamIq.h \
-    base/QXmppConstants.h \
     base/QXmppDataForm.h \
     base/QXmppDiscoveryIq.h \
     base/QXmppElement.h \
@@ -14,6 +13,7 @@ INSTALL_HEADERS += \
     base/QXmppIq.h \
     base/QXmppJingleIq.h \
     base/QXmppLogger.h \
+    base/QXmppMamIq.h \
     base/QXmppMessage.h \
     base/QXmppMucIq.h \
     base/QXmppNonSASLAuth.h \
@@ -39,7 +39,9 @@ INSTALL_HEADERS += \
 
 HEADERS += \
     base/QXmppCodec_p.h \
+    base/QXmppConstants_p.h \
     base/QXmppSasl_p.h \
+    base/QXmppStanza_p.h \
     base/QXmppStreamInitiationIq_p.h \
     base/QXmppStun_p.h
 
@@ -60,6 +62,7 @@ SOURCES += \
     base/QXmppIq.cpp \
     base/QXmppJingleIq.cpp \
     base/QXmppLogger.cpp \
+    base/QXmppMamIq.cpp \
     base/QXmppMessage.cpp \
     base/QXmppMucIq.cpp \
     base/QXmppNonSASLAuth.cpp \
@@ -80,6 +83,7 @@ SOURCES += \
     base/QXmppStream.cpp \
     base/QXmppStreamFeatures.cpp \
     base/QXmppStreamInitiationIq.cpp \
+    base/QXmppStreamManagement.cpp \
     base/QXmppStun.cpp \
     base/QXmppUtils.cpp \
     base/QXmppVCardIq.cpp \
