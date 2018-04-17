@@ -1,4 +1,4 @@
-include(../qxmpp.pri)
+include(../src/xmpp/qxmpp.pri)
 
 QT -= gui
 QT += testlib
