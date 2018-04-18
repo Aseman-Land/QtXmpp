@@ -24,3 +24,10 @@ include(server/server.pri)
 HEADERS += $$INSTALL_HEADERS
 
 load(qt_module)
+
+!contains(CONFIG, no_install) {
+    INSTALL_HEADERS_PREFIX = $$[QT_INSTALL_HEADERS]
+    INSTALL_PREFIX = $$INSTALL_HEADERS_PREFIX/QtXmpp
+    INSTALL_HEADERS = $$HEADERS
+    include(qmake/headerinstall.pri)
+}
